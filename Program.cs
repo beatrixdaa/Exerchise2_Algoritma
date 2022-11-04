@@ -67,8 +67,18 @@ namespace Exerchise2_Algoritma
             pos = (left);
             num = (right - left + 1);
 
+            while ((left <= eol) && (mid <= right))
+            {
+                if (numbers[left] <= numbers[mid])
+                    temp[pos++] = numbers[left++];
+                else
+                    temp[pos++] = numbers[mid++];
+            }
+            while (left <= eol)
+                temp[pos++] = numbers[left++];
 
 
         }
     }
+
 }
