@@ -37,7 +37,28 @@ namespace Exerchise2_Algoritma
                 string s1 = Console.ReadLine();
                 beatrix[i] = Int32.Parse(s1);
             }
+        }
 
-         }
-     }
-  }
+        public void insertionsort()
+        {
+            for (i = 1; i < n; i++)
+            {
+                val = beatrix[i];
+                flag = 0;
+                for (ba = i - 1; ba >= 0 && flag != 1;)
+                {
+                    if (val < beatrix[ba])
+                    {
+                        beatrix[ba + 1] = beatrix[ba];
+                        ba--;
+                        beatrix[ba + 1] = val;
+
+                    }
+                    else flag = 1;
+                }
+
+            }
+        }
+    }
+}
+        
