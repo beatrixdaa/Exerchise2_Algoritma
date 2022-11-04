@@ -122,9 +122,15 @@ namespace Exerchise2_Algoritma
             Console.Write("\n");
             for (int k = 0; k < max; k++)
             {
-
+                Console.Write(numbers[k] + " ");
+                Console.Write("\n");
 
             }
+            Console.WriteLine("MergeSort ");
+            SortMerge(numbers, 0, max - 1);
+            for (int i = 0; i < max; i++)
+                Console.WriteLine(numbers[i]);
+            Console.ReadLine();
         }
 
     }
