@@ -101,7 +101,40 @@ namespace Exerchise2_Algoritma
             Console.WriteLine("/n------------------");
             Console.WriteLine("Elemen array yang diurutkan");
             Console.WriteLine("--------------------------");
+            for (int j = 0; j < n; j++)
+            {
+                Console.WriteLine(beatrix[j]);
+            }
+
+        }
+        static void Main(string[] args)
+        {
+            Console.Write("\nProgram untuk mengurutkan array numerik menggunakan Merge Sorting");
+            Console.Write("\n\nMasukkan jumlah elemen: ");
+            int max = Convert.ToInt32(Console.ReadLine());
+            int[] numbers = new int[max];
+            for (int i = 0; i < max; i++)
+            {
+                Console.Write("\nEnter [" + (i + 1).ToString() + "] element: ");
+                numbers[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            Console.Write("Input int array : ");
+            Console.Write("\n");
+            for (int k = 0; k < max; k++)
+            {
+
+
+            }
         }
 
     }
 }
+
+
+      
+
+
+
+
+
+        
