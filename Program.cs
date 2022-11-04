@@ -29,6 +29,5 @@ namespace Exerchise2_Algoritma
         }
     }
 }
- 
 
 
