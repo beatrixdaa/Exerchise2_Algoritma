@@ -77,7 +77,7 @@ namespace Exerchise2_Algoritma
             while (left <= eol)
                 temp[pos++] = numbers[left++];
 
-
+        
         }
     }
 
