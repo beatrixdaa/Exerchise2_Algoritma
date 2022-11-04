@@ -90,12 +90,18 @@ namespace Exerchise2_Algoritma
             if (right > left)
             {
 
-                mid = (right + left) / 2
+                mid = (right + left) / 2;
                 SortMerge(numbers, left, mid);
-                SortMerge(numbers, (mid + 1), right;
+                SortMerge(numbers, (mid + 1), right);
                 MainMerge(numbers, left, (mid + 1), right);
             }
         }
+        void display()
+        {
+            Console.WriteLine("/n------------------");
+            Console.WriteLine("Elemen array yang diurutkan");
+            Console.WriteLine("--------------------------");
+        }
+
     }
- }  
 }
