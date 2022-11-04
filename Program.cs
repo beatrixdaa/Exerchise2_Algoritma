@@ -26,8 +26,18 @@ namespace Exerchise2_Algoritma
                     Console.WriteLine("\nArray dapat memiliki maksimum 21 element \n");
 
             }
-        }
-    }
-}
+            Console.WriteLine("\n==============");
+            Console.WriteLine("Masukkan Elements Array");
+            Console.WriteLine("\n================");
 
+            //get array elements
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write("<" + (i + 1) + ">");
+                string s1 = Console.ReadLine();
+                beatrix[i] = Int32.Parse(s1);
+            }
 
+         }
+     }
+  }
